@@ -1,0 +1,80 @@
+
+.container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  text-align: center;
+  color: #2563eb;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+form > label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.gender {
+  display: flex;
+  gap: 25px;
+  margin: 10px 0;
+}
+
+.gender label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.result {
+  margin-top: 25px;
+  padding: 15px;
+  background: #ecfdf5;
+  border: 1px solid #10b981;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.result h2 {
+  color: #047857;
+  font-size: 20px;
+}
+
+.result p {
+  margin: 10px 0;
+}
